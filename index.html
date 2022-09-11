@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./access/style.css">
+    <link rel="stylesheet" href="./access/font/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body>
+    <div class="player">
+        <div class="dashBoard">
+            <header class="header">
+                <h5>Now Playing:</h5>
+                <p>dfadsfdsf</p>  
+           </header>      
+       
+           <div class="CD">
+                <div class="cd_thumb" 
+                    style="background-image: url('../access/image/images.jfif') ;">
+                </div>
+           </div>
+
+           <div class="control">
+               <div class="btn btn-repeat">
+                   <i class="fa-solid fa-rotate-right"></i>
+               </div>
+               <div class="btn btn-prev">
+                   <i class="fa-solid fa-backward-step"></i>
+               </div>
+               <div class="btn btn-toggle-play ">
+                   <i class="icon-pause fa-solid fa-pause"></i>
+                   <i class=" icon-play fa-solid fa-play"></i>
+               </div>
+               <div class="btn btn-next">
+                   <i class="fa-solid fa-forward-step"></i>
+               </div>
+               <div class="btn btn-ramdom ">
+                <i class="fa-solid fa-shuffle"></i>
+               </div>
+           </div>
+            <input id="progress" class="progress" type="range" value="0" min="0" max="100" step="1">  
+            <audio id="audio" src=""></audio>
+        </div>
+    
+        <div class="play_list">
+            
+        </div>
+    </div>
+    <script src="./appMuisic.js"></script>
+</body>
+</html>
